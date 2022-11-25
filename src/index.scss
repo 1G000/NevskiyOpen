@@ -1,10 +1,69 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 20px;
+  font-family: system-ui;
+  background-color: rgb(224, 227, 226);
+  
 }
 
-body {
-  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
-    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    background-color: rgb(61, 212, 161);
+.wrapper {
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+  max-width: 1080px;
+  margin: 50px auto;
+}
+
+.header {
+  background: #ffffff;
+  max-width: 1080px;
+  padding: 0;
+  
+    h1 {
+      background: #ffffff;
+      margin: 10px auto;
+      padding: 0;
+    }
+}
+
+.cards {
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+  max-width: 1080px;
+  margin: 10px auto;
+  
+}
+
+.card {
+  width: 180px;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  background:  #f2f6f3;
+  border-radius: 40px;
+  transition: box-shadow 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  margin: 10px 10px;
+    &:hover {
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.06);
+    transform: translateY(-5px);
+  }
+  span {
+    background:  #f2f6f3;;
+    padding: 5px;
+    
+  }
+  img {
+    border: 1px solid #f3f3f3;
+    background:  #f2f6f3;
+    border-radius: 40px;
+    padding: 0px;
+  }
+}
+
+.table {
+  table, td, th {
+  border: 2px solid;
+  border-color: black;
+  border-collapse: collapse;
+}
 }
