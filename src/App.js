@@ -89,27 +89,41 @@ function App() {
           <table>
             <tr>
               <th>№</th>
+              <th>Фото</th>
               <th>Фио</th>
               <th>Победы</th>
               <th>Поражения</th>
+              <th>Разница по сетам в/п</th>
             </tr>
             <tr>
               <td>1</td>
+              <td>
+                <img width={50} height={60} src={"./img/1.jpg"}></img>
+              </td>
               <td>Виктор Размарин</td>
               <td>3</td>
               <td>0</td>
+              <td>3-2</td>
             </tr>
             <tr>
               <td>2</td>
+              <td>
+                <img width={50} height={60} src={"./img/2.jpg"}></img>
+              </td>
               <td>Игорь ГРБ</td>
               <td>2</td>
               <td>1</td>
+              <td>2-2</td>
             </tr>
             <tr>
               <td>3</td>
+              <td>
+                <img width={50} height={60} src={"./img/3.jpg"}></img>
+              </td>
               <td>Иван Слабаков</td>
               <td>0</td>
               <td>3</td>
+              <td>0-2</td>
             </tr>
           </table>
         </div>
