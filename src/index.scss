@@ -20,6 +20,7 @@
   padding: 0;
   
     h1 {
+      font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
       background: #ffffff;
       margin: 10px auto;
       padding: 0;
@@ -60,10 +61,6 @@
   }
 }
 
-.table {
-  table, td, th {
-  border: 2px solid;
-  border-color: black;
-  border-collapse: collapse;
-}
+h3 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
 }

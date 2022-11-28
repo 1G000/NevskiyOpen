@@ -1,5 +1,5 @@
 import React from "react"
-import "./App.css"
+import "./App.scss"
 // import Cards from "./components/Cards"
 
 const players = [
@@ -97,33 +97,165 @@ function App() {
             </tr>
             <tr>
               <td>1</td>
-              <td>
-                <img width={50} height={60} src={"./img/1.jpg"}></img>
-              </td>
-              <td>Виктор Размарин</td>
-              <td>3</td>
-              <td>0</td>
-              <td>3-2</td>
+              <td></td>
+              <td>Женя</td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
               <td>2</td>
-              <td>
-                <img width={50} height={60} src={"./img/2.jpg"}></img>
-              </td>
-              <td>Игорь ГРБ</td>
-              <td>2</td>
-              <td>1</td>
-              <td>2-2</td>
+              <td></td>
+              <td>Саша врач</td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
               <td>3</td>
+              <td></td>
+              <td>Кирилл</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td></td>
+              <td>Данила Пыленок</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td></td>
+              <td>Саша американец</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td></td>
+              <td>Артём</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td></td>
+              <td>Пётр</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>8</td>
               <td>
-                <img width={50} height={60} src={"./img/3.jpg"}></img>
+                {/* <img width={50} height={60} src={"./img/2.jpg"}></img> */}
               </td>
-              <td>Иван Слабаков</td>
-              <td>0</td>
-              <td>3</td>
-              <td>0-2</td>
+              <td>Игорь Горбатовский</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td></td>
+              <td>Григор</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td></td>
+              <td>Сергей</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td></td>
+              <td>Андрей</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td></td>
+              <td>Антон</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td></td>
+              <td>Саша</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td></td>
+              <td>Яков</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td></td>
+              <td>Сергей М</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td></td>
+              <td>Максим</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>17</td>
+              <td></td>
+              <td>Евгений</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>18</td>
+              <td></td>
+              <td>Костя</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>19</td>
+              <td></td>
+              <td>Саша музыкант</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td></td>
+              <td>Даня</td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
           </table>
         </div>
