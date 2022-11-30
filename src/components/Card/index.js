@@ -1,13 +1,14 @@
 import React from "react"
 import cardStyles from "./Card.module.scss"
 
-function Card() {
+function Card(props) {
   return (
     <div className={cardStyles.card}>
-      <img src={"./img/3.jpg"} width={150} height={170} alt="blazergreen" />
-      <span>{`Имя: Игорь`}</span>
-      <span> {`Возраст: 30 лет`}</span>
-      <span>{`Статус: Легенда`}</span>
+      <img src={props.imageUrl} width={150} height={170} alt="blazergreen" />
+      <span>{props.name}</span>
+      <span>{props.secondName}</span>
+      <span> {props.age}</span>
+      <span>{props.status}</span>
     </div>
   )
 }

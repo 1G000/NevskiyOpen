@@ -4,29 +4,29 @@ import Card from "./components/Card"
 import Rank from "./components/Rank/Rank"
 import Results from "./components/Results/Results"
 
-// const players = [
-//   {
-//     imageUrl: "./img/1.jpg",
-//     name: "Victor",
-//     secondName: "Razmarin",
-//     age: 30,
-//     status: "active",
-//   },
-//   {
-//     imageUrl: "./img/2.jpg",
-//     name: "Igor",
-//     secondName: "GRB",
-//     age: 32,
-//     status: "legend",
-//   },
-//   {
-//     imageUrl: "./img/3.jpg",
-//     name: "Ivan",
-//     secondName: "Ivanov",
-//     age: 32,
-//     status: "bot",
-//   },
-// ]
+const players = [
+  {
+    imageUrl: "./img/1.jpg",
+    name: "Victor",
+    secondName: "Razmarin",
+    age: 30,
+    status: "active",
+  },
+  {
+    imageUrl: "./img/2.jpg",
+    name: "Igor",
+    secondName: "GRB",
+    age: 32,
+    status: "legend",
+  },
+  {
+    imageUrl: "./img/3.jpg",
+    name: "Ivan",
+    secondName: "Ivanov",
+    age: 32,
+    status: "bot",
+  },
+]
 
 function App() {
   return (
@@ -36,7 +36,15 @@ function App() {
           <h1>Ростер игроков</h1>
         </div>
         <div className="cards d-flex justify-between flex-wrap">
-          <Card />
+          {players.map((obj) => (
+            <Card
+              name={obj.name}
+              secondName={obj.secondName}
+              age={obj.age}
+              status={obj.status}
+              imageUrl={obj.imageUrl}
+            />
+          ))}
         </div>
         <Rank />
         <Results />
