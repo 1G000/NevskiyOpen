@@ -1,32 +1,9 @@
 import React from "react"
 import "./App.scss"
 import Card from "./components/Card"
-import Rank from "./components/Rank/Rank"
+import Rank from "./components/Rank"
 import Results from "./components/Results/Results"
-
-const players = [
-  {
-    imageUrl: "./img/1.jpg",
-    name: "Victor",
-    secondName: "Razmarin",
-    age: 30,
-    status: "active",
-  },
-  {
-    imageUrl: "./img/2.jpg",
-    name: "Igor",
-    secondName: "GRB",
-    age: 32,
-    status: "legend",
-  },
-  {
-    imageUrl: "./img/3.jpg",
-    name: "Ivan",
-    secondName: "Ivanov",
-    age: 32,
-    status: "bot",
-  },
-]
+import players from "./components/Data/Data"
 
 function App() {
   return (
@@ -43,10 +20,17 @@ function App() {
               age={obj.age}
               status={obj.status}
               imageUrl={obj.imageUrl}
+              birthDate={obj.birthDate}
+              turnToProDate={obj.turnToProDate}
+              powerHand={obj.powerHand}
+              backhandStyle={obj.backhandStyle}
+              rankingPosition={obj.rankingPosition}
             />
           ))}
         </div>
-        <Rank />
+
+        <Rank name={players.name} secondName={players.secondName} />
+
         <Results />
       </div>
     </div>
