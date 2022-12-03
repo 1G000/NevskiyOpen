@@ -29,7 +29,7 @@ function App() {
           ))}
         </div>
 
-        <Rank name={players.name} secondName={players.secondName} />
+        <Rank />
 
         <Results />
       </div>
