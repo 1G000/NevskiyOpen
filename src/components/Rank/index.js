@@ -5,7 +5,7 @@ function Rank() {
   const playerInRate = players.map((player) => (
     <li className={rankStyles.li}>
       <div>
-        <span>{player.rankingPosition}</span>
+        <span className={rankStyles.rankNumber}>{player.rankingPosition}</span>
         <img src={player.imageUrl} width={50} height={50} alt="playerPhoto" />
         <span>
           {player.name} {player.secondName}
@@ -13,6 +13,7 @@ function Rank() {
       </div>
     </li>
   ))
+
   return (
     <div className="d-flex flex-column align-center">
       <h3 className={rankStyles.h3}>Рейтинг</h3>
