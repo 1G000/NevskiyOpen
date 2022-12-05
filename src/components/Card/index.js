@@ -4,7 +4,7 @@ import cardStyles from "./Card.module.scss"
 function Card(props) {
   return (
     <div className={cardStyles.card}>
-      <img src={props.imageUrl} width={170} height={170} alt="blazergreen" />
+      <img src={props.imageUrl} width={170} height={170} alt="playerPhoto" />
       <span>{`${props.name} ${props.secondName}`}</span>
 
       <span>{`Дата рождения: ${props.birthDate}`}</span>

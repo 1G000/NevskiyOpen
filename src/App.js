@@ -2,7 +2,7 @@ import React from "react"
 import "./App.scss"
 import Card from "./components/Card"
 import Rank from "./components/Rank"
-import Results from "./components/Results/Results"
+import Results from "./components/Results"
 import players from "./components/Data/Data"
 
 function App() {
