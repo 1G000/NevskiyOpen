@@ -30,8 +30,10 @@ function App() {
         </div>
 
         <Rank />
-
-        <Results />
+        <div className="d-flex align-center flex-column">
+          <h3>Результаты матчей</h3>
+          <Results />
+        </div>
       </div>
     </div>
   )

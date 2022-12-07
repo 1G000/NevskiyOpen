@@ -1,7 +1,11 @@
 .result {
+border: 1px solid;
+border-radius: 3%;
 display: flex;
 flex-direction: column;
 align-items: center;
+padding: 5px;
+margin: 5px;
 
   img {
     border-radius: 30%;
@@ -12,45 +16,42 @@ align-items: center;
     font-size: 17px;
     font-weight: bold;
   }
+
   .tablo {
     font-size: 25px;
     font-weight: bolder;
-    color:red
   }
 
+  .resultBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-height: 100px;
+    padding: 20px;
+  }
+
+  .vsBlock{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 130px;
+  min-width: 180px;
+  padding: 0px;
+  }
+
+  a {
+padding: 0px;
+  }
+
+  .playersNames {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 450px;
+    padding: 15px;
+  }
 }
 
 
 
 
-// h3 {
-//   font-size: 30px;
-//   font-weight: bold;
-// }
-
-// li {
-//   margin-bottom: 5px;
-//   padding: 5px;
-//   font-size: 25px;
-//   font-weight:500;
-//   list-style: none;
-//   cursor: pointer;
-
-// &:hover {
-//   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.06);
-//   transform: translateY(-5px);
-// }
-// }
-// span {
-//   padding: 0px;
-//   padding-right:5px;
-//   letter-spacing: 7px;
-// }
-
-// .rankNumber {
-//   min-width: 36px;
-// }
-
-// img {
-//   padding: 0px 10px;
-//   }
