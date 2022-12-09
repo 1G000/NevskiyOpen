@@ -10,29 +10,29 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        <Routes>
-          <div className="wrapper">
-            <div className="header d-flex justify-center">
-              <h1>Ростер игроков</h1>
-            </div>
+        <div className="wrapper">
+          <Routes>
             <Route
               path="/"
               element={
-                <div className="cards d-flex justify-between flex-wrap">
-                  {players.map((obj) => (
-                    <Card
-                      name={obj.name}
-                      secondName={obj.secondName}
-                      age={obj.age}
-                      status={obj.status}
-                      imageUrl={obj.imageUrl}
-                      birthDate={obj.birthDate}
-                      turnToProDate={obj.turnToProDate}
-                      powerHand={obj.powerHand}
-                      backhandStyle={obj.backhandStyle}
-                      rankingPosition={obj.rankingPosition}
-                    />
-                  ))}
+                <div className="header">
+                  <h1>Ростер игроков</h1>
+                  <div className="cards">
+                    {players.map((obj) => (
+                      <Card
+                        name={obj.name}
+                        secondName={obj.secondName}
+                        age={obj.age}
+                        status={obj.status}
+                        imageUrl={obj.imageUrl}
+                        birthDate={obj.birthDate}
+                        turnToProDate={obj.turnToProDate}
+                        powerHand={obj.powerHand}
+                        backhandStyle={obj.backhandStyle}
+                        rankingPosition={obj.rankingPosition}
+                      />
+                    ))}
+                  </div>
                 </div>
               }
             />
@@ -46,8 +46,8 @@ function App() {
                 </div>
               }
             />
-          </div>
-        </Routes>
+          </Routes>
+        </div>
       </div>
     </BrowserRouter>
   )
