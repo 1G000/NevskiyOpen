@@ -1,7 +1,7 @@
-import players from "../Data/Data"
-import rankStyles from "./Rank.module.scss"
+import players from "../components/Data/Data"
+import rankStyles from "../components/Rating/Rank.module.scss"
 
-function Rank() {
+function Rating() {
   const playerInRate = players.map((player) => (
     <li className={rankStyles.li}>
       <div>
@@ -22,4 +22,4 @@ function Rank() {
   )
 }
 
-export default Rank
+export default Rating
