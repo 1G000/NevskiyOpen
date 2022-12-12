@@ -4,7 +4,7 @@ import players from "../components/Data/Data"
 
 const Roster = () => {
   return (
-    <div className="header">
+    <>
       <h1>Ростер игроков</h1>
       <div className="cards">
         {players.map((obj) => (
@@ -22,7 +22,7 @@ const Roster = () => {
           />
         ))}
       </div>
-    </div>
+    </>
   )
 }
 

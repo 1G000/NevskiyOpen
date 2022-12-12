@@ -10,6 +10,13 @@
   justify-content: space-between;
   }
   
-  nav a {
+  nav {
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  a {
+    
     color: red
   }
+}

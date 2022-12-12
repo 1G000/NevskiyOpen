@@ -14,22 +14,17 @@
   margin: 50px auto;
 }
 
-.header {
-  background: #a54343;
-  max-width: 1080px;
-  padding: 0;
-  display:flex;
+main {
+  display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
 }
-  
-    h1 {
-      font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-      background: #ffffff;
-      margin: 10px auto;
-      padding: 0;
-    }
 
+h1 {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  margin: 10px auto;
+  padding: 0;
+}
 
 h3 {
   font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;

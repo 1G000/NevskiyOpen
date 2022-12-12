@@ -10,16 +10,21 @@ import Menu from "./components/Menu/Menu"
 function App() {
   return (
     <BrowserRouter>
-      <div>
-        <div className="wrapper">
+      <div className="wrapper">
+        <header>
           <Menu />
+        </header>
+        <main>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/roster" element={<Roster />} />
             <Route path="/rating" element={<Rating />} />
             <Route path="/results" element={<Results />} />
           </Routes>
-        </div>
+        </main>
+        <footer>
+          <h4>На связи кароче пацаны</h4>
+        </footer>
       </div>
     </BrowserRouter>
   )
