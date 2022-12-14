@@ -1,6 +1,13 @@
 .App {
+  width: 100vw;
+  height: 100vh;
   text-align: center;
   background-color: rgb(61, 212, 161);
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .cards {
@@ -10,17 +17,3 @@
   justify-content: space-between;
   }
   
-  nav {
-    border: 1px solid;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  a {
-    
-    color: red
-  }
-}
-
-.active {
-  color: green;
-}
