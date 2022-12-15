@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { NavLink } from "react-router-dom"
+import MenuIcon from "@mui/icons-material/Menu"
 import navBarStyles from "../Menu/Menu.module.scss"
 
 const Menu = () => {
@@ -7,7 +8,10 @@ const Menu = () => {
   return (
     <nav className={navBarStyles.NavBar}>
       <div className={navBarStyles.leftSide}>
-        <div className={navBarStyles.links} id={showLinks ? "hidden" : ""}>
+        <div
+          className={navBarStyles.links}
+          id={showLinks ? navBarStyles.hidden : ""}
+        >
           <NavLink to="/" end>
             Главная
           </NavLink>
@@ -18,10 +22,12 @@ const Menu = () => {
           <NavLink to="/results">Галерея</NavLink>
           <NavLink to="/results">О нас</NavLink>
         </div>
-        <button>Open</button>
+        <button onClick={() => setShowLinks(!showLinks)}>
+          <MenuIcon />
+        </button>
       </div>
       <div className={navBarStyles.rightSide}>
-        <h2>Невская лига</h2>
+        <h2>Невская сборная</h2>
       </div>
     </nav>
   )
